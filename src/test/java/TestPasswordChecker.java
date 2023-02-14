@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
     nel fatto che non viene eseguito nessun controllo sulla stringa in in input, quindi
     se l'input è per esempio null, il programma solleva un'eccezione */
 
-public class TestPasswordChecker {
+class TestPasswordChecker {
 
     @Test
     void testIsPalindrome() {

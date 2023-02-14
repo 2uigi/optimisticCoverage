@@ -1,5 +1,7 @@
 public class PasswordChecker {
 
+    private PasswordChecker(){}
+
     private static boolean validate(String string){
         return (string.length()>8);
     }
